@@ -50,7 +50,8 @@ gate-ablation study (`06`) and an unconstrained-counterfactual bypass analysis (
 │   ├── 04_dice_intervention.ipynb  # Step 4: dual reliability gate + constrained DiCE
 │   ├── 05_dice_bypass.ipynb        # unconstrained-DiCE causal-path bypass (quantified)
 │   ├── 06_gate_ablation.ipynb      # utility: what each removed gate admits
-│   └── 07_hitl_governance.ipynb    # Step 5: 2-D HITL grid, fairness audit, case report
+│   ├── 07_hitl_governance.ipynb    # Step 5: 2-D HITL grid, fairness audit, case report
+│   └── 08_robustness.ipynb         # reproduction vs sample size; bypass vs causal-path width; pilot-scale HITL downgrade
 ├── results/
 │   ├── figures/              # PNG + PDF, grayscale, 600 dpi
 │   └── tables/               # CSV
@@ -90,12 +91,14 @@ derives every downstream file from it.
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 jupyter nbconvert --to notebook --execute --inplace notebooks/00_data_preparation.ipynb
-# then 01 → 07 in order (each reads artifacts written by earlier notebooks)
+# then 01 → 08 in order (each reads artifacts written by earlier notebooks)
 ```
 
 Run the notebooks **in numerical order**: `00` writes the analysis-ready datasets and
 a variable dictionary, `02`–`03` write the causal-path and reproduction artifacts,
-and `04`–`07` consume them. Step 3 runs PCMCI+ per household twice (two significance
+`04`–`07` consume them, and `08` runs the additional robustness checks (reproduction
+stability as a function of sample size, counterfactual bypass as a function of
+causal-path width, and the pilot-scale HITL grade downgrade). Step 3 runs PCMCI+ per household twice (two significance
 levels) and caches the per-household results under `data/_pcmci_cache_*.pkl`, so
 re-runs are fast.
 

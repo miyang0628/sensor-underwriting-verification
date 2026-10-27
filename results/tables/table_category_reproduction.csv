@@ -1,0 +1,6 @@
+﻿category,reproduction,top_A,top_B,sign_agreement
+HR,full,Illuminance,Illuminance,0.8
+BR,full,Illuminance,Illuminance,0.9
+ST,full,SkinTemperature,SkinTemperature,0.8
+SP,full,SPO2,SPO2,0.7
+ER,direct_signal,Button/Shout,Button/Shout,n/a

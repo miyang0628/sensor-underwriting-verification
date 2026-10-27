@@ -1,0 +1,5 @@
+﻿category,precision,repro_full_sample,grade_full_sample,top1_agree_pilot(k=3),repro_pilot,grade_pilot_2D,grade_pilot_precision_only,downgraded_by_grid_at_pilot
+Heart rate,0.76,full,1,0.84,partial,2,1,True
+Breath rate,0.637,full,1,0.757,partial,2,1,True
+Skin temp.,0.662,full,1,0.993,full,1,1,False
+SpO2,0.377,full,2,0.793,partial,2,2,False
