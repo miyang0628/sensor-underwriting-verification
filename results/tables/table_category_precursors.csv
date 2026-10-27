@@ -1,0 +1,6 @@
+﻿category,top_precursor,lag,mean_parcorr,direction,causal_path
+HR,Illuminance,1 step (10 min),-0.1125,low->risk,Illuminance
+BR,Illuminance,1 step (10 min),-0.089,low->risk,Illuminance
+ST,SkinTemperature,1 step (10 min),-0.1303,low->risk,"SkinTemperature, Illuminance"
+SP,SPO2,1 step (10 min),-0.0523,low->risk,SPO2
+ER,Activity_IR,1 step (10 min),0.0915,high->risk,Activity_IR

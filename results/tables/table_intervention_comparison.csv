@@ -1,0 +1,4 @@
+﻿category,n_path_vars,on_path,single_dist_med,complex_dist_med,adopted,n_queries_ok
+HR,1,Illuminance,2.048,n/a,single (only one on-path variable),29
+BR,1,Illuminance,2.544,n/a,single (only one on-path variable),25
+ST,2,"SkinTemperature, Illuminance",3.222,4.914,single,30
