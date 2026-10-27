@@ -1,0 +1,6 @@
+﻿category,label,causal_verdict,precision,grade_1D_precision_only,grade_2D_corrected,downgraded_by_2D
+HR,Heart rate,not reproduced,0.963,1,2,True
+BR,Breath rate,not reproduced,0.921,1,2,True
+ST,Skin temp.,stable reproduction,0.288,2,2,False
+SP,SpO2,self-lag only (no cross-precursor),0.76,1,2,True
+ER,Emergency,direct raw signal,0.0,3,3,False

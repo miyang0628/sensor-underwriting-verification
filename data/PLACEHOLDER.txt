@@ -1,0 +1,1 @@
+Place the AI-Hub-derived observation table here as raw_sessions.pkl (see README section 3). This directory is git-ignored; no data is redistributed.

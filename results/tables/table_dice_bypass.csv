@@ -1,0 +1,5 @@
+﻿category,n_counterfactuals,on_path_vars,bypass_rate_offpath,most_frequent_offpath_edit,most_frequent_edit_overall
+HR,200,HeartRate,0.87,BreathRate,BreathRate
+BR,200,BreathRate,0.65,SleepPhase,BreathRate
+ST,200,"Illuminance, SleepPhase, SleepScore",0.715,Temperature,SleepPhase
+SP,200,SPO2,0.585,SleepPhase,SPO2

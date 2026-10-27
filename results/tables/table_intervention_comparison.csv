@@ -1,0 +1,4 @@
+﻿category,n_path_vars,on_path,single_dist_med,complex_dist_med,adopted,n_queries_ok
+HR,1,HeartRate,1.11,n/a,single (only one on-path variable),30
+BR,1,BreathRate,2.117,n/a,single (only one on-path variable),30
+SP,1,SPO2,3.135,n/a,single (only one on-path variable),30

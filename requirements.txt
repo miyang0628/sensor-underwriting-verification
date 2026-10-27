@@ -1,0 +1,13 @@
+# Python 3.11+ recommended
+tigramite==5.2.10.1
+dice-ml==0.12
+scikit-learn==1.9.1
+pandas==2.2.2
+numpy==1.26.4
+scipy==1.13.1
+matplotlib==3.9.2
+seaborn==0.13.2
+networkx==3.3
+jupyter
+nbformat
+nbconvert
