@@ -1,6 +1,0 @@
-﻿category,auc,precision,recall,n_pos_test,passes_gate,handling
-HR,0.9987,0.963,0.9988,3314,True,DiCE intervention
-BR,0.9986,0.9209,0.9965,1997,True,DiCE intervention
-ST,0.9355,0.2881,0.5967,1448,False,held back (reliability not met)
-SP,0.9997,0.7602,1.0,168,True,DiCE intervention
-ER,0.7667,0.0,0.0,63,False,raw direct signal (held)

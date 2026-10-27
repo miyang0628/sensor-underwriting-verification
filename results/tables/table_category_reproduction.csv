@@ -1,6 +1,0 @@
-﻿category,reproduction,top_parent_A,top_parent_B,sign_agreement
-HR,not_reproduced,Temperature,StressIndex,0.0
-BR,not_reproduced,SPO2,SPO2,0.5
-ST,full,SleepPhase,SleepPhase,1.0
-SP,autoregressive_only,(none),(none),n/a
-ER,direct_signal,Button/Shout,Button/Shout,n/a

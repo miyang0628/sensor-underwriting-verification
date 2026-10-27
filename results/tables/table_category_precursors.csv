@@ -1,6 +1,0 @@
-﻿category,defining_sensor,basis,n_path_vars,causal_path
-HR,HeartRate,PCMCI lag-1: defining sensor + recurring cross-parents,1,HeartRate[self] (no recurring cross-parent)
-BR,BreathRate,PCMCI lag-1: defining sensor + recurring cross-parents,1,BreathRate[self] (no recurring cross-parent)
-ST,(none),label-association only (NO defining sensor channel),3,"SleepPhase(-0.307), SleepScore(+0.274), Illuminance(-0.128)"
-SP,SPO2,PCMCI lag-1: defining sensor + recurring cross-parents,1,SPO2[self] (no recurring cross-parent)
-ER,Button/Shout,raw emergency signal,0,(direct raw signal; not modelled)

@@ -1,5 +1,0 @@
-﻿gate,ablation,flawed_output_admitted,magnitude,score
-1 Sample eligibility,facility track retained in sample,facility households set the high-risk ceiling; home risk band mis-scaled,"facility danger rate 0.101 = 1.94x the home 90th pct (0.052); top-2 pooled risk ranks both facility ['A0030', 'A0029']",0.9717643587380634
-3 Causal stability,no reproducibility / stability filter,non-reproducible lag-1 links asserted as causal precursors,"33 of 42 cross-links (79%) would be asserted though not recurring; 3 categories lack a reproduced precursor ['HR', 'BR', 'SP']",0.7857142857142857
-4a Model reliability,AUC-only acceptance (no precision / positive-count floor),near-zero-precision categories auto-recommended,"ST: AUC 0.935, precision 0.288 -> 71.2% of auto-recommendations would be false; ER: AUC 0.767, precision 0.000 -> 100.0% of auto-recommendations would be false",1.0
-4b Causal constraint,unconstrained DiCE (edit any variable),recommendations editing off-path (non-causal) variables,mean off-path edit rate 70.5% across categories; worst HR 87.0% (top off-path edit: BreathRate),0.705
