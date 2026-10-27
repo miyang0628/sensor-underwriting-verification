@@ -1,6 +1,0 @@
-﻿category,label,causal_verdict,precision,grade_1D_precision_only,grade_2D_corrected,downgraded_by_2D
-HR,Heart rate,stable reproduction,0.76,1,1,False
-BR,Breath rate,stable reproduction,0.637,1,1,False
-ST,Skin temp.,stable reproduction,0.662,1,1,False
-SP,SpO2,stable reproduction,0.377,2,2,False
-ER,Emergency,direct raw signal,0.0,3,3,False

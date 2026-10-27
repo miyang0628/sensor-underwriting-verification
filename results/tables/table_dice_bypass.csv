@@ -1,5 +1,0 @@
-﻿category,n_counterfactuals,on_path_vars,bypass_rate_offpath,most_frequent_offpath_edit,most_frequent_edit_overall
-HR,200,Illuminance,0.81,SkinTemperature,SkinTemperature
-BR,200,Illuminance,0.83,SkinTemperature,SkinTemperature
-ST,200,"Illuminance, SkinTemperature",0.5,SPO2,SkinTemperature
-SP,200,SPO2,0.865,Illuminance,Illuminance
