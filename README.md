@@ -51,7 +51,11 @@ gate-ablation study (`06`) and an unconstrained-counterfactual bypass analysis (
 │   ├── 05_dice_bypass.ipynb        # unconstrained-DiCE causal-path bypass (quantified)
 │   ├── 06_gate_ablation.ipynb      # utility: what each removed gate admits
 │   ├── 07_hitl_governance.ipynb    # Step 5: 2-D HITL grid, fairness audit, case report
-│   └── 08_robustness.ipynb         # reproduction vs sample size; bypass vs causal-path width; pilot-scale HITL downgrade
+│   ├── 08_robustness.ipynb         # reproduction vs sample size; bypass vs causal-path width; pilot-scale HITL downgrade
+│   ├── 09_label_leakage.ipynb      # Major-revision: 3-model comparison (all / drop-label-sensor / past->future), PR-AUC & calibration
+│   ├── 10_precursor_sensitivity.ipynb # Major-revision: lag 10/30/60 min + time-of-day control + BH-FDR
+│   ├── 11_household_uncertainty.ipynb # Major-revision: per-household table, household bootstrap CIs, session-length skew
+│   └── 12_threshold_sensitivity.ipynb # Major-revision: oversight-tier threshold sweep
 ├── results/
 │   ├── figures/              # PNG + PDF, grayscale, 600 dpi
 │   └── tables/               # CSV
@@ -69,6 +73,10 @@ paths.
 The analysis uses the **AI-Hub "Risk-Detection Data for the Care of Independent-Living
 Older Adults"** dataset (multimodal home-sensor time series). The dataset is
 distributed by AI-Hub under its own terms and is **not redistributed here**.
+
+> **Data attribution.** This research (paper) used datasets from The Open AI Dataset
+> Project (AI-Hub, S. Korea). All data information can be accessed through
+> 'AI-Hub (www.aihub.or.kr)'.
 
 To reproduce, obtain the dataset from AI-Hub and place the prepared
 observation-level table at:
@@ -91,7 +99,7 @@ derives every downstream file from it.
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 jupyter nbconvert --to notebook --execute --inplace notebooks/00_data_preparation.ipynb
-# then 01 → 08 in order (each reads artifacts written by earlier notebooks)
+# then 01 → 12 in order (each reads artifacts written by earlier notebooks)
 ```
 
 Run the notebooks **in numerical order**: `00` writes the analysis-ready datasets and
