@@ -1,5 +1,0 @@
-﻿category,precision,auc,category_ko,tier1_at_0.4
-HR,0.7603,0.9767,심박이상,True
-BR,0.6375,0.9811,호흡이상,True
-ST,0.6621,0.991,체온이상,True
-SP,0.3766,0.9973,산소포화도이상,False

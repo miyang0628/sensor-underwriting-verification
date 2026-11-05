@@ -1,6 +1,0 @@
-﻿category,category_ko,base_top,base_parcorr,match_rate,sign_stability,ci_low,ci_high
-HR,심박이상,Illuminance,-0.1139,0.997,1.0,-0.1436,-0.0831
-BR,호흡이상,Illuminance,-0.0933,0.9,1.0,-0.1221,-0.0678
-ST,체온이상,SkinTemperature,-0.1201,1.0,1.0,-0.1533,-0.0919
-SP,산소포화도이상,SPO2,-0.056,1.0,1.0,-0.0682,-0.0427
-ER,응급직접신호,Activity_IR,0.0379,0.726,0.999,-0.0476,0.0753
