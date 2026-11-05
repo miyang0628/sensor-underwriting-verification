@@ -1,0 +1,16 @@
+﻿category,category_ko,lag_min,sensor,partial_corr,p_value,q_value,survives_fdr,n
+BR,호흡이상,10,Temperature,-0.0496,0.0,0.0,True,98627
+BR,호흡이상,30,Temperature,-0.0638,0.0,0.0,True,97800
+BR,호흡이상,60,Temperature,-0.0695,0.0,0.0,True,96658
+ER,응급직접신호,10,Activity_IR,0.0358,0.0,0.0,True,98627
+ER,응급직접신호,30,Humidity,-0.027,0.0,0.0,True,97800
+ER,응급직접신호,60,Humidity,-0.0274,0.0,0.0,True,96658
+HR,심박이상,10,HeartRate,-0.0535,0.0,0.0,True,98627
+HR,심박이상,30,SkinTemperature,-0.0589,0.0,0.0,True,97800
+HR,심박이상,60,SkinTemperature,-0.0599,0.0,0.0,True,96658
+SP,산소포화도이상,10,SPO2,-0.0562,0.0,0.0,True,98627
+SP,산소포화도이상,30,SPO2,-0.0549,0.0,0.0,True,97800
+SP,산소포화도이상,60,SPO2,-0.0358,0.0,0.0,True,96658
+ST,체온이상,10,SkinTemperature,-0.1242,0.0,0.0,True,98627
+ST,체온이상,30,SkinTemperature,-0.0867,0.0,0.0,True,97800
+ST,체온이상,60,SkinTemperature,-0.0504,0.0,0.0,True,96658

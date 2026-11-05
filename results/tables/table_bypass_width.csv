@@ -1,0 +1,5 @@
+﻿category,n_cf,offpath_top1,offpath_top2,offpath_top3,top3_path
+Heart rate,200,0.81,0.695,0.655,"Illuminance, Activity_IR, HeartRate"
+Breath rate,200,0.83,0.655,0.485,"Illuminance, SkinTemperature, Activity_IR"
+Skin temp.,200,0.665,0.5,0.48,"SkinTemperature, Illuminance, Temperature"
+SpO2,200,0.865,0.625,0.55,"SPO2, Illuminance, HeartRate"
